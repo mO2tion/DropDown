@@ -16,7 +16,7 @@ internal final class DropDownCell: UITableViewCell {
 	//UI
 	@IBOutlet weak var optionLabel: UILabel!
 	
-	var selectedBackgroundColor: UIColor?
+	let selectedBackgroundColor: UIColor? = nil
 
 }
 
