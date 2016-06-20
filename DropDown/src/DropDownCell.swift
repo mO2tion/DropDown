@@ -13,7 +13,7 @@ public class DropDownCell: UITableViewCell {
 	//UI
 	@IBOutlet public weak var optionLabel: UILabel!
 	
-	var selectedBackgroundColor: UIColor?
+	let selectedBackgroundColor: UIColor? = nil
 
 }
 
